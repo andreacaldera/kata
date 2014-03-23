@@ -18,6 +18,6 @@ class FirstRubyTest < Test::Unit::TestCase
 
   # Fake test
   def test_first_ruby
-    assert_equal(2, FirstRuby.new().plusOne(1))
+    assert_equal(3, FirstRuby.new().plusOne(1))
   end
 end
